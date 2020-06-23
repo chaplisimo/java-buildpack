@@ -30,6 +30,8 @@
                   failCtxIfServletStartFails='true'>
                 <Listener className='org.cloudfoundry.tomcat.lifecycle.ApplicationStartupFailureDetectingLifecycleListener'/>
                 <Valve className='org.apache.catalina.valves.ErrorReportValve' showReport='false' showServerInfo='false'/>
+				
+				<Valve className="org.kie.integration.tomcat.JACCValve" />
             </Host>
         </Engine>
     </Service>
