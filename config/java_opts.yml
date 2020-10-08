@@ -16,4 +16,4 @@
 # JAVA_OPTS configuration
 ---
 from_environment: true
-java_opts: '-Dorg.kie.server.id=tomcat-kieserver -Dorg.kie.server.location=http://http://desadrools.mybluemix.net:8080/kie-server/services/rest/server -Dorg.kie.server.controller=http://http://desadrools.mybluemix.net:8080/rest/controller'
+java_opts: '-Dorg.kie.server.id=tomcat-kieserver -Dorg.kie.server.location=http://desadrools.mybluemix.net:8080/kie-server/services/rest/server -Dorg.kie.server.controller=http://desadrools.mybluemix.net:8080/rest/controller'
